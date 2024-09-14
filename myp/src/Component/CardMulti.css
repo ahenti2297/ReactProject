@@ -1,0 +1,25 @@
+.badaPkt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: blanchedalmond;
+}
+
+.badaPkt h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.myCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myCards h1{
+    display: flex;
+}

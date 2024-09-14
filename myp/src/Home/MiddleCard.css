@@ -1,0 +1,68 @@
+.NewBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 130px;
+    background-color: #dcdcdc;
+    margin-top: -750px;
+    margin-left: 400px;
+    margin-bottom: 500px;
+    border: 1px solid gainsboro;
+}
+.people-icon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: -460px;
+    /* margin-right: 12px; */
+}
+.search-post{
+    /* position: static; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px; 
+    border: 1px solid gray;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: -480px;
+    margin-right: -400px ;
+    gap: 20px;
+
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+.gallery img{
+    display: flex;
+    width: 20px;
+    height: 20px    ;
+}
+.gallery2 img{
+    display: flex;
+    width: 20px;
+    height: 20px    ;
+}
+.gallery3 img{
+    display: flex;
+    width: 15px;
+    height: 15px    ;
+}
+

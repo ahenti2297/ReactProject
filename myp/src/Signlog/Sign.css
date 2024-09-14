@@ -1,0 +1,117 @@
+.SigningBox{
+    height: 100%;
+    margin: 20px;
+    padding: 40px;
+    background-color: azure;
+
+}
+
+
+.context img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+
+}
+
+.Alltext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 500px;
+    margin: 30px 50px 0px 350px;
+    padding: 25px;
+}
+
+.Alltext h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.Alltext p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: -20px;
+}
+
+.account{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+    /* padding: 50px;
+    margin-bottom: -20px;
+    margin-left: 60px;
+    margin-right: -15px; */
+}
+
+
+
+
+.justText{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -330px;
+    margin-top: -25px;
+   
+}
+
+.justText Button{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.magicalBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+
+.magicalBtn Button{
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.joinner{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -260px;
+
+}
+
+.joinner p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.joinner Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}

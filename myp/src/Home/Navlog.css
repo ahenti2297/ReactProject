@@ -1,0 +1,104 @@
+/* .content2{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+} */
+
+.navBoxEntire{
+    height: 80px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    /* background-color: gainsboro;     */
+    height: 70px;
+    gap: 10px;
+    margin: 1px 0px 10px 850px;
+    /* overflow-x: hidden; */
+}
+
+.inlogo img{
+    height: 40px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.search-it{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-right: 30px;
+    border: 1px solid blue;
+}
+
+/* .newicons{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -15px; 
+    margin-bottom: -10px;  
+    gap: 5px;
+} */
+
+.iconistic{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 15px 10px;
+}
+
+.icons{
+    margin-bottom: 6px;
+}
+
+
+.btnColor{
+     background: none;
+}
+
+.iconistic h5{
+    margin-left: 18px;
+}
+
+.iconistic img{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 5px -30px 5px;
+}
+
+
+
+.iconistic p{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+   
+    font-size: 13px;
+}
+.iconis{
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: brown;
+    flex-wrap: wrap;
+    text-decoration: underline;
+}
+
+.adjusted{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+

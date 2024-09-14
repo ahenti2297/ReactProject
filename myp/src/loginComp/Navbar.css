@@ -1,0 +1,35 @@
+/* .content{
+    height: auto;
+    overflow-x: hidden;
+} */
+
+.cont{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    margin: 10px 5px;    
+    /* overflow-x: hidden; */
+}
+
+.LinkedInLo{
+    display: flex;
+    height: 60px;
+    width: 70px;
+    padding: 20px;
+}
+
+.NavbarTools{
+    display: flex;
+    padding: 20px 80px;
+    gap: 50px;
+    margin-left: 350px;
+
+}
+
+.NavbarTools p{
+   font-size: smaller;
+   display: flex;
+   flex-wrap: wrap;
+}
+

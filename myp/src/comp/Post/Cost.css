@@ -1,0 +1,170 @@
+.post{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.58);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.58) ;
+    margin: 30px 0;
+}
+
+.postWrapper{
+    padding: 10px;
+
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postProfileImg{
+    width: 32px;
+    height: 32px;
+    border-radius:  50%;
+    object-fit: cover;
+}
+
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+/* .postLikedBy{
+    font: 100;
+} */
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.postBottomRight{
+    display: flex;
+    /* align-items: center; */
+}
+
+
+
+.likeBtn{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postlikeContainer{
+    font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed grey;
+    
+}
+
+.commentBox{
+    width: 100%;
+    /* background-color: pink; */
+    /* display: flex; */
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.commentText{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.commentPerson{
+    width: 30%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.commentInput{
+    width: 80%;
+    height: 25px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.commentButton{
+    height: 35px;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    margin-top: -7px;
+}
+ 
+
+
+
+.commentsList{
+    width: 100%;
+    /* background-color: skyblue ; */
+    /* display: flex;
+    align-items: center; */
+   
+}
+
+.commentItem    {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+.authorName{
+    width: 30%;git 
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.commentStyle{
+    width: 70%;
+    height: fit-content ;
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: -25px;
+    font-size: 15p;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.deleteButton{
+    font-size: 15px;
+    height: 35px;
+    padding: 0;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    /* margin-left: 15px; */
+}

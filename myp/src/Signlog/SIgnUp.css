@@ -1,0 +1,159 @@
+.Fbox{
+    width: 100vw;
+    margin: 20px;
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+.Fbox img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+
+}
+
+.login-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: white; */
+    border: 1px solid black;
+    width: 500px;
+    margin: -20px 50px 0px 250px;
+    padding: 25px;
+}
+
+.login-card h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: -20px;
+    width: 400px;
+}
+
+.login-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+    margin-left: -100px;
+}
+
+.login-name label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.nameInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+    margin-top: 80px;
+}
+
+.login-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+    margin-left: -700px;
+}
+
+.login-email label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 370px;
+    margin-bottom: 80px;
+    width: 200px;   
+}
+
+.emailInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -190px;
+    margin-top: -50px;
+}
+
+.login-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -330px;
+    margin-top: -50px;
+    margin-bottom: 130px;
+}
+
+.passLabel{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: -50px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.passInput{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: -305px;
+}
+
+.paraFoot{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: -310px;   
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.footbtn{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: -310px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.OrP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-left: -160px;
+}
+
+.continueBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 470px;
+    margin-left: -160px;
+    border-radius: 20px;
+}

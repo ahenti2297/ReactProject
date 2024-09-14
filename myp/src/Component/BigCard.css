@@ -1,0 +1,38 @@
+.ColorCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;    
+
+}
+
+.chhotaPkt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 500px;
+   
+}
+.ColorCard h1{
+    display: flex;
+    font-size: 50px;
+    color: goldenrod;
+    flex-direction: column;
+    /* padding-left: 650px; */
+    margin-top: -800px;
+    margin-bottom: -30px;
+    margin-left: -450px;
+}
+
+.chhotaPkt p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 350;
+    width: 900px;
+    flex-direction: column;
+    margin-left: -450px;
+
+}
+
+

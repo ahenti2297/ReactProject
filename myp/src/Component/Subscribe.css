@@ -1,0 +1,27 @@
+.NavBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+}
+
+.Nav img{
+    display: flex;
+    margin-left: 150px;
+}
+
+.Nav Button{
+    display: flex;
+    margin-left: 850px;
+    color: black;
+}

@@ -1,0 +1,142 @@
+.boxing{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: gainsboro;
+   width: 500px;
+   border-radius: 10px;
+   height: 500px;
+   margin-top: -480px;
+   margin-left: 400px;
+   margin-bottom: 500px;  
+}
+
+.tabs{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: -360px;
+    margin-left: -50px;
+    width: 500px;
+    /* padding-top: -200px; */
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.firstTab{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* width: ; */
+    margin-top: -100px;
+}
+
+.firstTab p{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    font-size: 15px;
+}
+
+.secTab{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -100px;
+    padding-left: 350px;
+}
+
+.tab2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 350px;
+    margin-top: -420px;
+    margin-left: -520px;
+   
+}
+.account{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -45px;
+
+}
+
+.adds{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 280px;
+    padding-bottom: 20px;
+    font-size: 18px ;
+    color: blue;
+}
+
+.tab2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    color: blue;
+}
+
+.myMedia{
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important   ;
+    width: 400px;
+    /* height: 500px; */
+    margin-left: -380px;
+    margin-top: -140px;
+}
+.contentMark{
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    width: 380px;
+    height: 80px;
+    margin-top: -150px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+
+.imPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 300px;
+    height: 200px; */
+    margin-top: 130px;
+    margin-left: -280px;
+    /* padding-left: -400px; */
+}
+
+
+
+/* .impost img{
+    width: 300px;
+    height: 200px;;
+} */
+
+
+.controller{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 350px;
+    margin-left: -430px;
+    padding-left: 120px;
+    gap: 85px;
+}
+
+.pin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

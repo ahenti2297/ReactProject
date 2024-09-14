@@ -1,0 +1,61 @@
+.leftbar{
+    background-color: gainsboro;
+    flex: 1;
+    height:fit-content;
+    margin-top: 5px;
+    width: 300px !important;
+}
+
+.leftbarWrapper{
+    padding: 20px;
+    /* display: inline; */
+    
+
+}
+
+.leftbarWrapper li{
+    list-style: none;
+}
+
+.leftbarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: blue;
+}
+
+.leftbartag{
+    display:flex; 
+    /* margin-bottom: 15px; */
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+
+.leftbarListItems{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: -10px;
+    color: black;
+    font-size: small;
+}
+
+.leftbarIcon{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 0px;
+}
+
+.leftbarBtn{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.leftbarHr{
+    margin: 20px 0;
+    
+}

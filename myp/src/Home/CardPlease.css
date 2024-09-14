@@ -1,0 +1,289 @@
+.Box{
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    width: 230px;
+    height: 750px;
+    background-color: gainsboro;
+    /* color: white; */
+    margin-top: 20px;
+    margin-left: 150px;
+    
+}
+
+img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 230px;
+    height: 80px;  
+    /* margin */
+}
+
+.icons{
+    margin-top: -30px;
+}
+
+.icons h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 15px 0px 0px 20px;
+    /* border-bottom: 1px solid whitesmoke; */
+}
+
+
+.cardBox h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 25px 60px -20px 20px;
+    font-size: 13px;
+    font-weight: 100;
+    width: 100px;
+}
+
+
+.cardBall h2{
+    display: flex;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 250px;
+    margin-left: -210px;
+    flex-wrap: wrap;
+}
+
+.cardGold{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    width: 800px;
+    /* margin: 20px; */
+}
+
+
+.cardGold img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0px 0px 0px -215px;
+    width: 30px;
+    height: 20px;
+}
+
+.cardGold h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px 0px 0px -180px;
+}
+
+.cardTold{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cardTold h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    margin: -520px 0px 0px 10px
+    
+}
+
+.cardT{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    margin: 0px 0px 520px -210px;
+    width: 20px;
+    /* padding: 20px; */
+}
+
+.baksa{
+    display: flex;
+    margin: 360px 0px -20px -1010px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.baksa h1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 250px;
+    margin: 0px 0px 0px -20px;
+    padding: 10px;
+    color: blue;
+
+}   
+.rec{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -70px;
+
+}
+
+.rec h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -370px;
+}
+
+.rec img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    margin-top: -380px;
+    margin-left: 130px;
+}
+
+.cardGroup{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin: 50px 0px -70px -190px;
+}
+
+.cardGroup h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    width: 220px;
+    margin-left: 5px;
+}
+
+.grouping{
+    display: flex;
+    margin-top: -25px;
+    margin-left: -260px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.grouping h1{
+    display: flex;
+    width: 220px;
+    margin-top: 350px;
+    margin-bottom: -320px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: blue;
+    font-size: 12px;
+}
+
+.roup{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -15px;
+    margin-bottom: -1px;
+    margin-right: -17px;
+}
+
+.roup h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 220px;
+    font-size: 11px;
+    font-weight: 100;
+    margin-right: -10px;  
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.mygroup{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 200px;
+    margin-top: 580px;
+    margin-left: -255px;
+    margin-right: 20px;
+
+}
+
+.mygroup h1{
+    color: blue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.follow{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    margin-top: 600px;
+    margin-left: -255px;
+    margin-bottom: 0px;
+   
+} 
+
+.follow h1{
+    color: blue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cardCopy{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -260px;
+    margin-top: -18px;
+    /* border-bottom: 1px solid whitesmoke; */
+        /* flex-wrap: nowrap; */
+}
+
+.cardCopy h2{
+    display: flex;
+    font-size: 12px;
+}
+.cardCopyed{    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -250px;
+    margin-top: -15px;
+    border-bottom: 1px solid whitesmoke;
+    /* flex-wrap: nowrap;  */
+} 
+
+.cardCopyed h2{
+    font-size: 10px;
+    /* flex-wrap: nowrap; */
+}   
+
+.disc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 700px;
+    margin-left:-210px;
+    margin-right: 60px;
+    width: 250px;
+}
+
+.disc h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+}

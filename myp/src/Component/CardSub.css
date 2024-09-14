@@ -1,0 +1,23 @@
+.secBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+
+
+.sec1 h1{
+    display: flex;
+    font-size: 23px;
+    font-weight: 500;
+    /* margin-bottom: -90px; */
+    margin-top: 100px;
+}
+
+.sec2 h3{
+    display: flex;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
