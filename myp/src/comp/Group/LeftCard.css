@@ -41,6 +41,9 @@
     font-size: small;
 }
 
+.groupBox{
+    display: flex;
+}
 .leftbarIcon{
     margin-left: 15px;
     margin-right: 15px;

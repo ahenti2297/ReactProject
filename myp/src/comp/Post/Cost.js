@@ -164,7 +164,7 @@ export default function Cost({ getPost }) {
           </div>
         </div>
         <div className='postCenter'>
-          <h1 className='postText'>{getPost?.images?.title}</h1>
+          <h4 className='postTitle'>{getPost?.title}</h4>
           <span className='postText'>{getPost?.content || "No content available"}</span>
           {getPost?.images?.length > 0 && <img className='postImg' src={getPost.images} alt="post" />}
         </div>
@@ -211,7 +211,7 @@ export default function Cost({ getPost }) {
                              <div className='commentsFound'>                                  
                                   {comments.map(comment => (
                                     <div key={comment._id} className='commentItem'>
-                                          <Avatar className='commentPerson'>{getPost?.auth}</Avatar>
+                                          <Avatar className='commentPerson'>{getPost?.author?.profileImage}</Avatar>
                                       <span className='authorName'>{getPost?.author?.name}</span>
                                        <span className='commentStyle'> {comment?.content}</span>
                                       <button onClick={() => deleteComment(comment._id)} 

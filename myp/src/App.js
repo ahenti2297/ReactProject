@@ -18,7 +18,7 @@ import Emoji from './Home/Emoji.js';
 import MediumCom from './comp/MediumCom.js';
 import { useContext } from 'react';
 import noteContext from './Context/noteContext.js';
-import Comments from './comp/Comment/Comments.js';
+// import Comments from './comp/Comment/Comments.js';
 import Group from './comp/Group/Group.js';
 // import index from './comp/Group/index.js';
 import Focus from './comp/Group/Focus.js';
@@ -50,7 +50,7 @@ function App() {
       <Route path='/business' element={<ForBusiness/>}></Route>
       <Route path='/signU' element={<SignUp/>}></Route>
       <Route path='/signIn' element={<SignIn/>}></Route>
-      <Route path='/comment' element={<Comments/>}></Route>
+      {/* <Route path='/comment' element={<Comments/>}></Route> */}
 
      
       <Route path='/check' element={<TryIt/>}></Route>

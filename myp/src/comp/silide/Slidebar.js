@@ -9,23 +9,22 @@ export default function Slidebar() {
   
   const {posts, getPosts}=useContext(noteContext);
 
+  
     useEffect(()=>{
-        getPosts();
-        // console.log(getPosts);/
-    },[]);
+      getPosts()
+    },[])
     
   return (
     <div className='slidebar'>
       <div className='.slidebarWrapper'>
           <Share/>
           {posts && posts.length > 0 ? (
-            posts.map((post, index) => (
-                <Cost getPost={post} key={index} />
-            ))
-        ) : (
-            <div style={{'marginTop':'100px'}}>No posts available</div>
-        )
-        }
+                posts.map((post, index) => (
+                    <Cost getPost={post} key={index} />
+                ))
+            ) : (
+                <div style={{'marginTop':'-500px'}}>No posts available</div>
+            )}
       </div>
     </div>
   )
