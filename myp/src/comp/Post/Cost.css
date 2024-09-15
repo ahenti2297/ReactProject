@@ -140,13 +140,13 @@
 }
 
 .authorName{
-    width: 30%;git 
+    width: 30%;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
     margin-bottom: 10px;
-}
+ }
 
 .commentStyle{
     width: 70%;

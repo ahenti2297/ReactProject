@@ -19,7 +19,7 @@ export default function LeftCard(getPost) {
         <div className='leftbarWrapper'>
             {/* <ul > */}
               {/* <img src={floral} alt=""/> */}
-              <Avatar sx={{ bgcolor: deepOrange[500] }}>{getPost?.author?.profileImage> 0 && <img className='postImg' src={getPost.author} alt="post" />}</Avatar>
+              <Avatar sx={{ bgcolor: deepOrange[500] }}>{getPost?.author?.profileImage}</Avatar>
               <li>
                   Computer Operator
               </li>
