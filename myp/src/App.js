@@ -16,12 +16,8 @@ import SignUp from './Signlog/SignUp.js';
 import SignIn from './Signlog/SignIn.js';
 import Emoji from './Home/Emoji.js';
 import MediumCom from './comp/MediumCom.js';
-import { useContext } from 'react';
-import noteContext from './Context/noteContext.js';
-// import Comments from './comp/Comment/Comments.js';
-import Group from './comp/Group/Group.js';
-// import index from './comp/Group/index.js';
-import Focus from './comp/Group/Focus.js';
+import Focus from './comp/Group/JoinGroup/Focus/Focus.js';
+import Create from './comp/Group/Create/Create.js';
 
 function App() {
   const styles = {
@@ -41,7 +37,7 @@ function App() {
       <Route path='/group' element={<Focus/>}></Route>
       {/* <Route path='/addpost' element={<AddPost/>}></Route> */}
       <Route path='/emo' element={<Emoji/>}></Route>
-      
+      <Route path='/create' element={<Create/>}></Route>      
       <Route path='/layouts' element={<MediumCom/>}></Route>
       <Route path='/people' element={<MyNetwork/>}></Route>
       <Route path='/more' element={<Jobs/>}></Route>

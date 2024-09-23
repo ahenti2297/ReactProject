@@ -33,7 +33,7 @@ export default function LeftCard(getPost) {
                    
                             <li className='leftbarListItems'>
                               <GroupsIcon className='leftbarIcon'/>
-                              <span>Brain Expansion Group</span>                    
+                              <span onClick={()=>navigate("/create")}>Create</span>                    
                           </li>
                           <li className='leftbarListItems'>
                               <GroupsIcon className='leftbarIcon'/>

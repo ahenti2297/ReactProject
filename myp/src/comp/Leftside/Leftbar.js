@@ -61,7 +61,7 @@ export default function Leftbar() {
                     </li>
                     <li className='leftbarListItems'>
                         <GroupsIcon className='leftbarIcon'/>
-                        <span>Cre8: The UX of AI</span>              
+                        <span >Cre8: The UX of AI</span>              
                     </li>
                     <li className='leftbarListItems'>
                         <GroupsIcon className='leftbarIcon'/>

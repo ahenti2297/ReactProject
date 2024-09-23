@@ -1,13 +1,15 @@
 import React from 'react'
-import LeftCard from './LeftCard'
-import Nav from '../navigation/Nav'
-import Middle from './Middle';
-// import RIghtCard from './RIghtCard';
-import Right from './Right';
+import './Focus.css';
+import LeftCard from '../LeftCard/LeftCard'
+import Nav from '../../../navigation/Nav'
+import Middle from '../middle/Middle';
+import SideCard from '../SideCard/SideCard';
+
 export default function Focus() {
   const styles = {
     homeContain: {
       display: 'flex',
+
     },
     nav:{
       position: 'fixed',
@@ -16,7 +18,7 @@ export default function Focus() {
       flex: '1', // Equal width
     },
     middle: {
-      flex: '4', // Equal widthfo
+      flex: '2', // Equal widthfo
     },
     rightCard: {
       flex: '1', // Equal width
@@ -44,8 +46,11 @@ export default function Focus() {
         <div style={styles.content}>
           <Middle />
         </div>
+        <div style={styles.rightCard}>
+          <SideCard/>
+        </div>
         
       </div>
     </div>
-  )
-}
+    )
+  }

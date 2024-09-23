@@ -62,11 +62,11 @@ export default function Cost({ getPost }) {
   const likeHandler = async () => {
     if (isLike) {
       try {
-        const data = await fetchWithRetry(`https://academics.newtonschool.co/api/v1/linkedin/unlike/${getPost._id}`, {
+        const data = await fetchWithRetry(`https://academics.newtonschool.co/api/v1/linkedin/like/${getPost._id}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
-            'projectId': 'i1dieevrt9g1',
+            'projectId': '60lfboqs7rjy',
             'Authorization': `Bearer ${token}`
           }
         });
