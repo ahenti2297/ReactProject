@@ -33,7 +33,7 @@ export default function LeftCard(getPost) {
                    
                             <li className='leftbarListItems'>
                               <GroupsIcon className='leftbarIcon'/>
-                              <span onClick={()=>navigate("/create")}>Create</span>                    
+                              <span onClick={()=>navigate("/Join")}>Create</span>                    
                           </li>
                           <li className='leftbarListItems'>
                               <GroupsIcon className='leftbarIcon'/>

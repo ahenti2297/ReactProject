@@ -119,6 +119,8 @@ function NoteState({children}){
 
     useEffect(()=>{
         getPosts();
+        // toggleStyle();
+
     },[page])
     
     return(

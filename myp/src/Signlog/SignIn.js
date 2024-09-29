@@ -63,61 +63,60 @@ export default function SignIn() {
           <img src={mini} alt="LinkedIn" />
         </div>
         <div className="Alltext">
-          <div className="card">
-            <h2>Welcome Back</h2>
-          </div>
-          <p>Don't miss your next opportunity.</p>
-          <p>Sign in to stay updated on your professional world.</p>
+            <div className="card">
+              <h2>Welcome Back</h2>
+            </div>
+                <p>Don't miss your next opportunity.</p>
+                <p>Sign in to stay updated on your professional world.</p>
 
 
-        <ul>
-          <li className="account">
-        
-            <OutlinedInput
-              style={{ width: 400 }}
-              name='email'
-              id="outlined-basic"
-              placeholder="Email or phone number"
-              value={formik.values.email}
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              error={formik.touched.email && Boolean(formik.errors.email)}
-            />
-            {formik.touched.email && formik.errors.email && (
-              <div className="error">{formik.errors.email}</div>
-            )}
-          </li>
+              <ul>
+                <li className="account">
+              
+                  <OutlinedInput
+                    style={{ width: 400 }}
+                    name='email'
+                    id="outlined-basic"
+                    placeholder="Email or phone number"
+                    value={formik.values.email}
+                    onChange={formik.handleChange}
+                    onBlur={formik.handleBlur}
+                    error={formik.touched.email && Boolean(formik.errors.email)}
+                  />
+                  {formik.touched.email && formik.errors.email && (
+                    <div className="error">{formik.errors.email}</div>
+                  )}
+                </li>
 
-          <li className="account">
-            <OutlinedInput
-              style={{ width: 400 }}
-              name='password'
-              id="outlined-adornment-password"
-              type={showPassword ? 'text' : 'password'}
-              value={formik.values.password}
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              error={formik.touched.password && Boolean(formik.errors.password)}
-              endAdornment={
-                <InputAdornment position="end">
-                  <IconButton
-                    aria-label="toggle password visibility"
-                    onClick={handleClickShowPassword}
-                    onMouseDown={handleMouseDownPassword}
-                    edge="end"
-                  >
-                    {showPassword ? <VisibilityOff /> : <Visibility />}
-                  </IconButton>
-                </InputAdornment>
-              }
-              placeholder="Password"
-            />
-            {formik.touched.password && formik.errors.password && (
-              <div className="error">{formik.errors.password}</div>
-            )}
-          
-          </li>
-        </ul>
+                <li className="account">
+                  <OutlinedInput
+                    style={{ width: 400 }}
+                    name='password'
+                    id="outlined-adornment-password"
+                    type={showPassword ? 'text' : 'password'}
+                    value={formik.values.password}
+                    onChange={formik.handleChange}
+                    onBlur={formik.handleBlur}
+                    error={formik.touched.password && Boolean(formik.errors.password)}
+                    endAdornment={
+                      <InputAdornment position="end">
+                        <IconButton
+                          aria-label="toggle password visibility"
+                          onClick={handleClickShowPassword}
+                          onMouseDown={handleMouseDownPassword}
+                          edge="end"
+                        >
+                          {showPassword ? <VisibilityOff /> : <Visibility />}
+                        </IconButton>
+                      </InputAdornment>
+                    }
+                    placeholder="Password"
+                  />
+                  {formik.touched.password && formik.errors.password && (
+                    <div className="error">{formik.errors.password}</div>
+                  )}
+                </li>
+              </ul>
           <div className="justText">
             <Button>Forgot Password</Button>
           </div>

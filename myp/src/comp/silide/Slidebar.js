@@ -8,8 +8,8 @@ import noteContext from '../../Context/noteContext';
 export default function Slidebar() {
   
   const {posts, getPosts}=useContext(noteContext);
-
-  
+    
+    
     useEffect(()=>{
       getPosts()
     },[])

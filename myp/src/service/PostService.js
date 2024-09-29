@@ -1,3 +1,4 @@
+import { create } from "@mui/material/styles/createTransitions";
 import http from "../Interceptors";
 
 const getPosts = (page=0)=>{
@@ -21,6 +22,9 @@ const editPost =(id)=>{
     return http.post(`https://academics.newtonschool.co/api/v1/linkedIn/post/:postId/${id}`)
 }
 
+// const createGroup = () =>{
+//     return http.post(`https://academics.newtonschool.co/api/v1/linkedIn/channel/`)
+// }
 
 
 const PostService={
@@ -28,7 +32,8 @@ const PostService={
     likeIds,
     commentIds,
     addPost,
-    editPost
+    editPost,
+    // createGroup
 }
 
 export default PostService;
